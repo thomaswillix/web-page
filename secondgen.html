@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+    <style>
+        img {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        td {
+            color: white;
+            width: 25%;
+        }
+
+        p, h1 {
+            padding: 5%;
+        }
+
+        div {
+            margin-bottom: 3px;
+        }
+
+        ul {
+            margin-left: 20%;
+            padding: unset;
+        }
+
+        a:hover {
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <a href="#grafico"><h1>La Segunda Generación</h1></a>
+    <table>
+        <tr id="titulos">
+            <td>
+                <h1>PlayStation</h1>
+            </td>
+            <td>
+                <h1>Nintendo 64</h1>
+            </td>
+            <td>
+                <h1>VirtualBoy</h1>
+            </td>
+            <td>
+                <h1>GameBoy Color</h1>
+            </td>
+        </tr>
+        <tr id="imagenes">
+            <td>
+                <img src="imagenes/playstation1.png" alt="PlayStation">
+            </td>
+            <td>
+                <img src="imagenes/n64.png" alt="Nintendo 64">
+            </td>
+            <td>
+                <img src="imagenes/virtualboy.png" alt="VirtualBoy">
+            </td>
+            <td>
+                <img src="imagenes/gameboycolor.jpg" alt="GameBoy Color">
+            </td>
+        </tr>
+        <tr id="texto">
+            <td>
+                <p style=" padding-bottom:unset">Primera consola de Sony, la cual tuvo éxitos como: </p>
+                <ul>
+                    <li>Gran Turismo</li>
+                    <li>Final Fantasy VII</li>
+                    <li>Gran Turismo 2</li>
+                    <li>Tekken 3</li>
+                </ul>
+
+            </td>
+            <td>
+                <p>
+                    Esta fue una de las consolas de Nintendo a la que peor le fue, cayendo en picado el número de ventas con respecto a la anterior de sobremesa, la SNES.
+                    Unos de sus principales juegos son:
+                </p>
+                <ul>
+                    <li>Super Mario 64</li>
+                    <li>Mario Kart 64</li>
+                    <li>Super Smash Bros</li>
+                    <li>The Legend Of Zelda: Ocarina of Time</li>
+                </ul>
+            </td>
+            <td>
+                <p>
+                    VirtualBoy fuel una apuesta que Nintendo hizo con la realidad virtual, sin embargo no funcionó y casi nadie la compró.
+                </p>
+            </td>
+            <td>
+                <p>
+                    Variación de la GameBoy de cuarta generación, pero en este caso se veía a color y el diseño era un poco más distinto.
+                </p>
+            </td>
+        </tr>
+    </table>
+    <div>
+        <h1>Número de ventas por consola (Millones/Ud)</h1>
+        <a name="grafico"><img style="max-height:initial;width:40%" src="imagenes/graph.png" alt="grafiquito" /></a>
+    </div>
+</body>
+</html>

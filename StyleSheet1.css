@@ -1,0 +1,41 @@
+﻿
+h1,p{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    text-align:center;
+    font-size:x-large;
+}
+ul{
+    color:white;
+    font-size:larger;
+}
+p{
+    font-style:italic;
+}
+body {
+    background-color:black;
+}
+table{
+    display:block;
+}
+#links{
+    margin: 5%;
+}
+#inicio, #paginasiguiente, #paginaanterior{
+    display:inline-block;
+    width: 6%;
+}
+#inicio:hover, #paginasiguiente:hover,#paginaanterior:hover{
+    width:8%;
+}
+#inicio{
+    float: left;
+    margin-left: 40%;
+}
+#paginasiguiente{
+    float: right;
+}
+#paginaanterior{
+    float:left;
+    margin-left: unset;
+}
